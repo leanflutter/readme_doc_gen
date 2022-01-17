@@ -1,0 +1,13 @@
+name: readme_doc_gen
+publish_to: "none"
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  analyzer: any
+  args: ^2.2.0
+  source_span: any
+
+executables:
+  readme_doc_gen: main
